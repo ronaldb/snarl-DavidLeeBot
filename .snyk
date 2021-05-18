@@ -1,0 +1,58 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - maki > mongoose-json-patch > lodash:
+        patched: '2021-05-18T09:32:44.412Z'
+  'npm:mime:20170907':
+    - maki > body-parser > type-is > mime:
+        patched: '2021-05-18T09:32:44.412Z'
+    - maki > express > send > mime:
+        patched: '2021-05-18T09:32:44.412Z'
+    - maki > less.js-middleware > less > mime:
+        patched: '2021-05-18T09:32:44.412Z'
+    - maki > express > serve-static > send > mime:
+        patched: '2021-05-18T09:32:44.412Z'
+  'npm:minimatch:20160620':
+    - maki > browserify > glob > minimatch:
+        patched: '2021-05-18T09:32:44.412Z'
+    - maki > jade-browser > glob > minimatch:
+        patched: '2021-05-18T09:32:44.412Z'
+  'npm:ms:20151024':
+    - maki > express > debug > ms:
+        patched: '2021-05-18T09:32:44.412Z'
+    - maki > express > send > ms:
+        patched: '2021-05-18T09:32:44.412Z'
+    - maki > express > finalhandler > debug > ms:
+        patched: '2021-05-18T09:32:44.412Z'
+    - maki > express > send > debug > ms:
+        patched: '2021-05-18T09:32:44.412Z'
+    - maki > express > serve-static > send > ms:
+        patched: '2021-05-18T09:32:44.412Z'
+    - maki > express > serve-static > send > debug > ms:
+        patched: '2021-05-18T09:32:44.412Z'
+  'npm:negotiator:20160616':
+    - maki > express > accepts > negotiator:
+        patched: '2021-05-18T09:32:44.412Z'
+  'npm:qs:20140806-1':
+    - maki > body-parser > qs:
+        patched: '2021-05-18T09:32:44.412Z'
+  'npm:send:20140912':
+    - maki > express > send:
+        patched: '2021-05-18T09:32:44.412Z'
+  'npm:uglify-js:20151024':
+    - maki > jade > transformers > uglify-js:
+        patched: '2021-05-18T09:32:44.412Z'
+    - maki > jade > constantinople > uglify-js:
+        patched: '2021-05-18T09:32:44.412Z'
+    - maki > jade > with > uglify-js:
+        patched: '2021-05-18T09:32:44.412Z'
+  'npm:ws:20160920':
+    - maki > ws:
+        patched: '2021-05-18T09:32:44.412Z'
+    - maki > maki-service-websockets > ws:
+        patched: '2021-05-18T09:32:44.412Z'
+    - maki > net-browserify > express-ws > ws:
+        patched: '2021-05-18T09:32:44.412Z'
