@@ -1,0 +1,41 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:mime:20170907':
+    - maki > express > send > mime:
+        patched: '2022-07-20T21:39:16.450Z'
+    - maki > less.js-middleware > less > mime:
+        patched: '2022-07-20T21:39:16.450Z'
+    - maki > express > serve-static > send > mime:
+        patched: '2022-07-20T21:39:16.450Z'
+  'npm:ms:20151024':
+    - maki > express > debug > ms:
+        patched: '2022-07-20T21:39:16.450Z'
+    - maki > express > send > ms:
+        patched: '2022-07-20T21:39:16.450Z'
+    - maki > express > finalhandler > debug > ms:
+        patched: '2022-07-20T21:39:16.450Z'
+    - maki > express > send > debug > ms:
+        patched: '2022-07-20T21:39:16.450Z'
+    - maki > express > serve-static > send > ms:
+        patched: '2022-07-20T21:39:16.450Z'
+    - maki > express > serve-static > send > debug > ms:
+        patched: '2022-07-20T21:39:16.450Z'
+  'npm:negotiator:20160616':
+    - maki > express > accepts > negotiator:
+        patched: '2022-07-20T21:39:16.450Z'
+  'npm:send:20140912':
+    - maki > express > send:
+        patched: '2022-07-20T21:39:16.450Z'
+  'npm:uglify-js:20151024':
+    - maki > jade > constantinople > uglify-js:
+        patched: '2022-07-20T21:39:16.450Z'
+    - maki > jade > with > uglify-js:
+        patched: '2022-07-20T21:39:16.450Z'
+    - maki > jade > transformers > uglify-js:
+        patched: '2022-07-20T21:39:16.450Z'
+  'npm:ws:20160920':
+    - maki > maki-service-websockets > ws:
+        patched: '2022-07-20T21:39:16.450Z'
