@@ -1,0 +1,49 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:mime:20170907':
+    - maki > express > send > mime:
+        patched: '2024-02-19T02:26:49.434Z'
+        id: 'npm:mime:20170907'
+        path: maki > express > send > mime
+    - maki > express > serve-static > send > mime:
+        patched: '2024-02-19T02:26:49.434Z'
+        id: 'npm:mime:20170907'
+        path: maki > express > serve-static > send > mime
+  'npm:ms:20151024':
+    - maki > express > debug > ms:
+        patched: '2024-02-19T02:26:49.434Z'
+        id: 'npm:ms:20151024'
+        path: maki > express > debug > ms
+    - maki > express > send > ms:
+        patched: '2024-02-19T02:26:49.434Z'
+        id: 'npm:ms:20151024'
+        path: maki > express > send > ms
+    - maki > express > finalhandler > debug > ms:
+        patched: '2024-02-19T02:26:49.434Z'
+        id: 'npm:ms:20151024'
+        path: maki > express > finalhandler > debug > ms
+    - maki > express > send > debug > ms:
+        patched: '2024-02-19T02:26:49.434Z'
+        id: 'npm:ms:20151024'
+        path: maki > express > send > debug > ms
+    - maki > express > serve-static > send > ms:
+        patched: '2024-02-19T02:26:49.434Z'
+        id: 'npm:ms:20151024'
+        path: maki > express > serve-static > send > ms
+    - maki > express > serve-static > send > debug > ms:
+        patched: '2024-02-19T02:26:49.434Z'
+        id: 'npm:ms:20151024'
+        path: maki > express > serve-static > send > debug > ms
+  'npm:negotiator:20160616':
+    - maki > express > accepts > negotiator:
+        patched: '2024-02-19T02:26:49.434Z'
+        id: 'npm:negotiator:20160616'
+        path: maki > express > accepts > negotiator
+  'npm:send:20140912':
+    - maki > express > send:
+        patched: '2024-02-19T02:26:49.434Z'
+        id: 'npm:send:20140912'
+        path: maki > express > send
