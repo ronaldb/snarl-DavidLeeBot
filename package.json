@@ -13,9 +13,33 @@
     "node": ">= 8.0.0"
   },
   "dependencies": {
+    "phantom": "2.0.0",
+    "plugapi": ">=0.2.0",
+    "repl": ">=0.1.3",
+    "restler": ">=2.0.1",
+    "mongoose": ">=3.4.0",
+    "google": ">=0.1.0",
+    "express": ">=3.0.3",
+    "jade": ">=0.27.7",
+    "underscore": ">=1.4.2",
+    "async": ">=0.1.22",
+    "crypto": ">= 0.0.3",
+    "xml2js": ">= 0.1.13",
+    "querystring": ">= 0.1.0",
+    "jquery": ">= 1.6.3",
+    "node-markdown": ">= 0.1.1",
+    "twss": "~0.1.6",
+    "passport": "~0.1.17",
+    "passport-local-mongoose": "~0.2.3",
+    "coffee-script": "~1.6.3",
     "doorman": "FabricLabs/doorman#6d4b2e6c3f07c8daf4e1071b61765ba9440fde40",
     "erm": "0.0.1",
-    "maki": "FabricLabs/maki#4db636cc3685d098b151235b0df78f89c52780d7"
+    "maki": "FabricLabs/maki#4db636cc3685d098b151235b0df78f89c52780d7"    
+  },
+  "devDependencies": {
+    "phantom": "2.0.0",
+    "plugapi": ">=0.2.0",
+    "repl": ">=0.1.3"
   },
   "keywords": [
     "slack",
